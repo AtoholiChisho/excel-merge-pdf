@@ -16,11 +16,6 @@ The PDF files are then added to the PdfFileMerger object, and the merged PDF is 
 
 Overall, this script can be useful in merging multiple PDF files into a single PDF file, and it can be easily integrated into an Excel workbook.
 
-To run this code, the following requirements should be met:
-
-Python 3.x should be installed on the system.
-The following Python packages should be installed:
-xlwings: This package can be installed via pip, using the command pip install xlwings.
-PyPDF2: This package can also be installed via pip, using the command pip install PyPDF2.
+To run this code:
 The code assumes that there is an Excel file named "pdfmerger.xlsm" in the same directory as the Python script.
 The Excel file should have a sheet with the following named ranges: "status", "source_dir", and "output_name".
